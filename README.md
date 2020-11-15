@@ -16,4 +16,4 @@ You can use this software, but it's not for commercial use without permit.
 
 ## License <a name = "license"></a>
 
-Copyright 2015-2020 [Pasi Hänninen]https://www.linkedin.com/in/pasihanninen/)
+Copyright 2015-2020 [Pasi Hänninen](https://www.linkedin.com/in/pasihanninen/)
