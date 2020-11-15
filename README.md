@@ -1,0 +1,2 @@
+# Sky
+ Kohdeluettelo tähtitaivaan kohteille
