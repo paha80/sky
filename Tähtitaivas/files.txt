@@ -1,0 +1,55 @@
+=----------------------------------------
+= Ohjelmointi 2, 2015, vaihe 7
+=----------------------------------------
+= Katso <a href="https://svn.cc.jyu.fi/srv/svn/ohj2ht/k2015/papehann/tags/" target="_top">työ vaiheittain</a>
+=
+@https://trac.cc.jyu.fi/projects/ohj2ht/browser/k2015/papehann = Työ versionhallinnassa
+
+= <h3>Ohjelman avustus</h3>
+!https://trac.cc.jyu.fi/projects/ohj2ht/wiki/k2015/suunnitelmat/papehann = Suunnitelma Wikissä
+=
+kuvat/paaikkuna.png = ohjelman pääikkuna
+kuvat/avaa.png      = kuva ohjelman alusta
+kuvat/eiaukea.png   = virheilmoitus jos tiedostoa ei ole
+kuvat/tietoja.png   = tietoja itse ohjelmasta
+
+= <h3>Ohjelman esisuunnitelma</h3>
+!https://trac.cc.jyu.fi/projects/ohj2ht/wiki/k2015/suunnitelmat/papehann = Suunnitelma Wikissä
+kuvat/paaikkunak.png = ohjelman pääikkuna
+kuvat/avaak.png      = kuva ohjelman alusta
+kuvat/eiaukeak.png   = virheilmoitus jos tiedostoa ei ole
+
+= <h3>Tietorakenne ja luokat</h3>
+@https://trac.cc.jyu.fi/projects/ohj2ht/wiki/kesa2015/suunnitelmat/papehannCRC= CRC-kortit Wikissä
+kuvat/kohdeluettelo.pdf = tietorakenteen kuva
+kuvat/kohdeluettelo.odg = tietorakenteen kuva (alkuperäinen)
+
+= <h3>Ajettava ohjelma</h3>
+tahtitaivas.jar = käyttöliittymä ajettavana ohjelmana
+
+= <h3>Käyttöliittymäluokkia Swing-kirjastoa varten</h3>
+src/harjoitustyo/TahtitaivasSwing.java = käyttöliittymän swing-luokka
+src/harjiotustyo/PaivaysSwing.java     = päiväyksen käsittely ohjelmassa
+
+= <h3>Käyttöliittymän ulkoasu WindowBuilderillä</h3>
+src/harjoitustyo/TahtitaivasGUI.java = ohjelman varsinainen käytöliittymä
+src/harjoitustyo/AvaaDialog.java     = ohjelman avautuessa
+src/harjoitustyo/TietojaDialog.java  = tietoja ohjelmasta
+src/harjoitustyo/TulostusDialog.java = tietojen tulostus
+
+= <h3>Tietorakenteiden käsittely koodissa</h3>
+src/kohdeluettelo/Kohde.java          = kohde -luokka
+src/kohdeluettelo/Kohteet.java        = kohteet -luokka
+src/kohdeluettelo/Kohdeluokka.java    = kohdeluokka -luokka
+src/kohdeluettelo/Kohdeluokat.java    = kohdeluokat -luokka
+src/kohdeluettelo/Kohdeluettelo.java  = kohdeluettelo
+src/kohdeluettelo/SailoException.java = poikkeusluokka virheille
+
+= <h3>Muita tiedostoja</h3>
+
+kohteet/kohteet.dat					 = kohteiden tiedosto
+kohteet/kohdeluokat.dat				 = kohdeluokkien tiedosto
+
+paivays.dat							 = tiedosto, johon tallentuu edellinen käyttökerta
+
+build.xml 						     = Ant-skripti, joka tekee .jar:n
